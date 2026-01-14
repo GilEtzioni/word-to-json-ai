@@ -144,8 +144,9 @@ const CreateJsonContainer: React.FC = () => {
         <CreateJsonButton onClick={handleStartProcess} loading={isPending} />
       </div>
       <p className="text-white flex items-center gap-1">
-        <FaRegCopyright /> Created By Gil Etzioni
-      </p>    
+        {React.createElement(FaRegCopyright as any)}
+        Created By Gil Etzioni
+      </p>
     </div>
     </>
   );
