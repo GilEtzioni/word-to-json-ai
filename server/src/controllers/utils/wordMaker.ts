@@ -9,7 +9,7 @@ const MAX_LOG_CHARS = 200;
 const PARA_FILL_HEX = "B7F7A5"; // light green
 const RUN_HIGHLIGHT = "yellow";
 
-type TopicBlock = { topic: string; items?: unknown[] };
+export type TopicBlock = { topic: string; items?: unknown[] };
 
 export const my_items: TopicBlock[] = [
   { topic: "GTel AI FAQS", items: [] },
