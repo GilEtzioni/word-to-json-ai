@@ -1,0 +1,21 @@
+# dependencies
+client/node_modules/
+server/node_modules/
+
+# output
+server/output_files/
+server/uploads/
+
+# build/test
+coverage/
+build/
+dist/
+
+# misc
+.DS_Store
+.env
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
