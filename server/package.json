@@ -2,29 +2,37 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
-  "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
-  "build": "tsc -p tsconfig.json",
-  "start": "node dist/src/index.js"
-},
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@xmldom/xmldom": "^0.8.11",
     "adm-zip": "^0.5.16",
     "archiver": "^7.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^5.2.1",
+    "fast-xml-parser": "^5.3.3",
     "helmet": "^8.1.0",
+    "jszip": "^3.10.1",
     "multer": "^2.0.2",
+    "openai": "^6.16.0",
     "pdf2json": "^4.0.1",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
     "@types/adm-zip": "^0.5.7",
     "@types/archiver": "^7.0.0",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/helmet": "^0.0.48",
+    "@types/jszip": "^3.4.0",
     "@types/multer": "^2.0.0",
     "@types/node": "^25.0.8",
     "@types/xml2js": "^0.4.14",
